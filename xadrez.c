@@ -37,3 +37,28 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    int movimentoVertical = 2;
+    int movimentoHorizontal = 1;
+
+    printf("\n");
+
+    for (int i = 0; i < movimentoVertical; i++) {
+        printf("Baixo\n");
+    }
+
+    int j = 0;
+    while (j < movimentoHorizontal) {
+        printf("Esquerda\n");
+        j++;
+    }
+
+    return 0;
+}
