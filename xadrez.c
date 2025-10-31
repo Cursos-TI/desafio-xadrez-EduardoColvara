@@ -62,3 +62,57 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+#include <stdio.h>
+
+void moverTorre(int casas, int atual) {
+    if (atual == casas) return;
+    printf("Cima\n");
+    moverTorre(casas, atual + 1);
+}
+
+void moverBispo(int vertical, int horizontal) {
+    if (vertical == 0) return;
+    for (int i = 0; i < horizontal; i++) {
+        printf("Direita\n");
+    }
+    printf("Cima\n");
+    moverBispo(vertical - 1, horizontal);
+}
+
+void moverRainha(int casas, int atual) {
+    if (atual == casas) return;
+    printf("Cima\n");
+    printf("Direita\n");
+    moverRainha(casas, atual + 1);
+}
+
+int main() {
+    int casasTorre = 3;
+    int casasBispoVertical = 2;
+    int casasBispoHorizontal = 2;
+    int casasRainha = 3;
+
+    moverTorre(casasTorre, 0);
+    printf("\n");
+    moverBispo(casasBispoVertical, casasBispoHorizontal);
+    printf("\n");
+    moverRainha(casasRainha, 0);
+    printf("\n");
+
+    for (int i = 0, j = 0; i < 2 || j < 1; i++, j++) {
+        if (i < 2) {
+            printf("Cima\n");
+        } else if (j < 1) {
+            printf("Direita\n");
+        } else {
+            break;
+        }
+    }
+
+    return 0;
+}
