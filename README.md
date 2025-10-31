@@ -9,47 +9,35 @@ Bem-vindo ao desafio de Xadrez da MateCheck! Este projeto tem como objetivo test
 
 ### 🏅 Nível Novato
 
-A equipe de testes da MateCheck recebeu uma solicitação para determinar os limites de utilização do código dentro do jogo. Para isso, a equipe de programação solicitou o envio de blocos de código contendo loops (estruturas de repetição) para avaliação de desempenho e possibilidades de aplicação.
+# ♟️ Movimentando as Peças do Xadrez
 
-**Movimentação das Peças:**
-- Bispo: 5 casas na diagonal superior direita
-- Torre: 5 casas para a direita
-- Rainha: 8 casas para a esquerda
+## 💡 Descrição
 
-No jogo, apenas possuímos movimentação para quatro direções, mas o Bispo se mexe na diagonal. Com isso, foi adicionada uma condição para movimentação dessa peça, em que, para movê-lo, utilizamos o comando `printf` e, em seu valor, colocamos a direção usando a combinação de direções básicas. 
+Este programa em **C** simula a movimentação de três peças do xadrez: **Torre**, **Bispo** e **Rainha**.  
+O objetivo é praticar o uso das **estruturas de repetição** `for`, `while` e `do-while`, representando o movimento característico de cada peça no tabuleiro.
 
-**Requisitos Funcionais:**
-1. **Entrada de Dados:**
-   - Os valores necessários devem ser inseridos manualmente a partir de variáveis dentro do código.
-   - Será permitido o uso de constantes para facilitar a escrita do código e evitar repetição de valores.
-2. **Estruturas de Repetição:**
-   - Os códigos precisam ser desenvolvidos utilizando estruturas de repetição.
-3. **Saída de Dados:**
-   - O sistema deve exibir os resultados de cada procedimento de forma clara e legível.
+O programa **não executa o jogo completo de xadrez**, mas apenas demonstra os **movimentos básicos** de cada peça por meio de repetições e mensagens no terminal.
 
-**Requisitos Não Funcionais:**
-1. **Performance:**
-   - O sistema deve executar os cálculos e apresentar os resultados sem atrasos perceptíveis.
-2. **Documentação:**
-   - O código deve ser bem documentado, incluindo comentários detalhados sobre a função de cada parte do código.
-3. **Manutenibilidade:**
-   - O código deve ser escrito de forma clara, empregando nomes de variáveis que permitam o fácil entendimento.
+---
 
-**Instruções Detalhadas:**
-1. **Entrada de Dados:**
-   - Inclua a biblioteca padrão de entrada e saída no início do seu programa.
-   - Declare variáveis constantes para definir os valores a serem comparados dentro das estruturas condicionais.
-2. **Estruturas de Repetição:**
-   - Utilize cada uma das diferentes estruturas de repetição apresentadas.
-3. **Saída:**
-   - As saídas deverão ser mostradas de forma clara e organizada, com a direção da peça.
+## 🧱 Peças e Estruturas Usadas
 
-**Nomenclatura:**
+| Peça   | Direção simulada                 | Estrutura utilizada |
+|--------|----------------------------------|---------------------|
+| Torre  | 5 casas para a direita           | `for`               |
+| Bispo  | 5 casas na diagonal (cima-direita) | `while`             |
+| Rainha | 8 casas para a esquerda          | `do-while`          |
 
-printf("Cima\n");
-printf("Baixo\n");
-printf("Esquerda\n");
-printf("Direita\n");
+---
+
+## ⚙️ Como Compilar
+
+Use o compilador `gcc` para compilar o código:
+
+```bash
+gcc movimentacao_xadrez.c -o movimentacao_xadrez
+./movimentacao_xadrez
+
 
 ### 🏅 Nível Aventureiro
 Agora que já conseguimos mover as peças mais simples usando loops, os desenvolvedores pediram para elaborar os loops de outra forma. Para o desafio, moveremos o cavalo, que possui sua movimentação em L. O cavalo deve se movimentar para baixo e para a esquerda, usando pelo menos duas estruturas de repetição: uma deve ser for e a outra pode ser while ou do-while.
