@@ -61,3 +61,80 @@ Obs: É obrigatório o uso de loops aninhados na movimentação do bispo e funç
 Ao concluir este desafio, você terá um conhecimento mais profundo de estruturas complexas e elaboradas, amplamente utilizadas no mercado de trabalho. Boa sorte e boa programação!
 
 Equipe de Ensino - MateCheck
+
+
+
+
+
+
+# ♟️ Projeto: Desafios de Xadrez em C
+
+Este projeto reúne três desafios progressivos em linguagem C, que simulam os movimentos de peças de xadrez e desenvolvem o raciocínio lógico e o domínio de estruturas de repetição e recursividade.
+
+---
+
+## 🧱 Nível Novato — Cadastrando e Movendo Peças
+
+### 🎯 Objetivo
+Criar um programa em C que simule os primeiros movimentos de peças de xadrez (como Torre e Bispo), utilizando loops simples para imprimir as direções no console.
+
+### 🧩 Requisitos
+- Definir no código o número de casas a mover.  
+- Utilizar loops simples (`for` ou `while`).  
+- Exibir no console a direção do movimento de cada casa percorrida.  
+
+### 🧠 Conceitos Trabalhados
+- Estruturas de repetição básicas  
+- Impressão de dados com `printf`  
+- Organização de código e lógica sequencial  
+
+---
+
+## ⚔️ Nível Aventureiro — Movimentando o Cavalo
+
+### 🎯 Objetivo
+Implementar a lógica do movimento em “L” do Cavalo no tabuleiro de xadrez, utilizando loops aninhados.
+
+### 🧩 Requisitos
+- Simular o movimento do Cavalo (duas casas para baixo e uma para a esquerda).  
+- Utilizar dois loops aninhados (um `for` e um `while` ou `do-while`).  
+- Separar visualmente os movimentos das demais peças com uma linha em branco.  
+
+### 🧠 Conceitos Trabalhados
+- Loops aninhados  
+- Controle de fluxo com múltiplas estruturas de repetição  
+- Impressão ordenada de saídas no console  
+
+---
+
+## 👑 Nível Mestre — Criando Movimentos Complexos
+
+### 🎯 Objetivo
+Aprimorar o programa de xadrez utilizando recursividade e loops complexos para simular os movimentos das peças: Torre, Bispo, Rainha e Cavalo.
+
+### 🧩 Requisitos
+- **Recursividade:**  
+  - Implementar funções recursivas para Torre, Bispo e Rainha.  
+- **Loops Complexos:**  
+  - Implementar a movimentação do Cavalo com loops aninhados e múltiplas condições.  
+  - Utilizar `continue` e `break` para controle preciso do fluxo.  
+- Separar as saídas de cada peça com linhas em branco e imprimir as direções conforme o movimento.  
+
+### 🧠 Conceitos Trabalhados
+- Recursividade e chamadas de função  
+- Estruturas de repetição complexas  
+- Controle avançado de fluxo (`continue` e `break`)  
+- Modularização e clareza de código  
+
+---
+
+## 🏁 Conclusão
+O projeto “Desafios de Xadrez em C” guia o estudante por uma jornada de aprendizado prático e progressivo em lógica de programação.  
+Cada nível amplia o domínio de conceitos fundamentais:
+
+- **Novato:** Loops e lógica sequencial  
+- **Aventureiro:** Loops aninhados e controle de fluxo  
+- **Mestre:** Recursividade e estruturas complexas  
+
+Ao final, o aluno desenvolve um sólido entendimento das bases de programação estruturada e das técnicas essenciais para resolver problemas lógicos em C.
+Obrigado por essa experiência! Att, Eduardo Colvara. 
